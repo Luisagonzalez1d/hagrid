@@ -1,0 +1,44 @@
+html
+  head
+    title Oye Marco
+    block links 
+      link(rel="stylesheet", href="../../../dist/css/hagrid-themes/oye-marco/style.css")
+  body
+    div(class="default-bgc")
+    block scripts
+      script.
+        (function(d) {
+          var config = {
+           kitId: 'syy5goa',
+           scriptTimeout: 3000,
+           async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+
+      script.
+        (function(d) {
+          var config = {
+            kitId: 'gwv2kwi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    
+    block header
+      section(class="gs gutters gs-block-sm keep-gutters")
+        div(class="lay-80")
+          figure(class="img")
+            img(src="", alt="Image")
+          h2(class="tk-co-headline") Delega lo delegable y recupera tiempo para lo importante.
+        aside(class="lay-20")
+
+    block content
+
+    block footer
+      h4(class="align-center tk-sofia-pro") Soy tu asistente personal. Dime qué necesitas.
+      p Disponible por demanda o paquetes de suscripción
+
+
+
