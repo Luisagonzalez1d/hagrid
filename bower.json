@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "sizzle": "^2.3.3",
-    "umbrella": "^2.6.7"
+    "umbrella": "^2.6.7",
+    "hagrid": "https://github.com/Luisagonzalez1d/hagrid.git#597f5185678fd79fda83ea59c579e53a691bb208"
   }
 }
