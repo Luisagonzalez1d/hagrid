@@ -6202,7 +6202,7 @@ div {
 
 h1,
 .h1 {
-  font-size: 2.7em;
+  font-size: 64px;
   font-weight: 300;
 }
 
@@ -6214,25 +6214,25 @@ h2,
 
 h3,
 .h3 {
-  font-size: 2.1em;
+  font-size: 24px;
   font-weight: 300;
 }
 
 h4,
 .h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 h5,
 .h5 {
-  font-size: 1.5em;
+  font-size: 18px;
   font-weight: 300;
 }
 
 h6,
 .h6 {
-  font-size: 1.2em;
+  font-size: 16px;
   font-weight: 300;
 }
 
