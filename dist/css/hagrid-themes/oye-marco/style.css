@@ -9657,12 +9657,12 @@ ul.list-square.list-error li:before {
 }
 
 .badge {
-  background: #fff;
-  color: #333;
+  background: #80388d;
+  color: #FFF;
   padding: 0.2em;
   border-radius: 100%;
   min-width: 1.4em;
-  height: 100%;
+  height: 0px;
   margin: 0 0.1em;
   font-size: 0.8em;
   line-height: 1.1em;
