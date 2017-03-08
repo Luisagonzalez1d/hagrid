@@ -9659,12 +9659,13 @@ ul.list-square.list-error li:before {
 .badge {
   background: #80388d;
   color: #FFF;
-  padding: 0.2em;
+  padding: 0.3em;
   border-radius: 100%;
   min-width: 1.4em;
-  height: 0px;
+  height: auto;
+  width: 35px;
   margin: 0 0.1em;
-  font-size: 0.8em;
+  font-size: 20px;
   line-height: 1.1em;
   display: inline-block;
   *display: inline;
