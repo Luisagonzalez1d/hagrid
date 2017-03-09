@@ -11008,6 +11008,14 @@ table.table.table-lg th {
   padding-top: 80px;
 }
 
+.p-105-top {
+  padding-top: 105px;
+}
+
+.p-200-bottom {
+  padding-bottom: 200px;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -11055,6 +11063,10 @@ table.table.table-lg th {
 
 .m-20-top {
   margin-top: 20px;
+}
+
+.m-40-top {
+  margin-top: 40px;
 }
 
 .f-right {
