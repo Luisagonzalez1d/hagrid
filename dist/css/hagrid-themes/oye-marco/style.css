@@ -11032,8 +11032,12 @@ table.table.table-lg th {
   line-height: 32px;
 }
 
-.lh-1 {
-  line-height: 1.5;
+.l-h-24 {
+  line-height: 24px;
+}
+
+.l-h-28 {
+  line-height: 28px;
 }
 
 .of-hidden {
