@@ -6307,6 +6307,10 @@ h6,
 .btn[class*="btn-"] {
   color: #fff;
 }
+.btn.btn-plans {
+  background-color: #FFF;
+  color: #ab47bc;
+}
 .btn.btn-default {
   background-color: #f8f8f8;
   color: #f8f8f8;
