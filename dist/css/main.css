@@ -11109,6 +11109,26 @@ table.table.table-lg th {
   padding-top: 7px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.b-primary-t {
+  border-top: 1px solid #2962ff;
+}
+
+.p-0-t {
+  padding-top: 0px;
+}
+
+.m--2-t {
+  margin-top: -2px;
+}
+
+.overflow-h {
+  overflow: hidden;
+}
+
 .p-0 {
   padding: 0;
 }
