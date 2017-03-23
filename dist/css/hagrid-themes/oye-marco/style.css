@@ -11024,22 +11024,6 @@ table.table.table-lg th {
   padding-bottom: 150px;
 }
 
-.l-s-n {
-  list-style: none;
-}
-
-.t-d-n {
-  text-decoration: none;
-}
-
-.d-b {
-  display: block;
-}
-
-.d-n {
-  display: none;
-}
-
 .m-0 {
   margin: 0;
 }
@@ -11081,18 +11065,6 @@ table.table.table-lg th {
   padding: 20px 30px;
 }
 
-.plans {
-  box-shadow: 0 2px 4px 0 rgba(96, 97, 110, 0.43);
-}
-
-.msg {
-  width: 90%;
-}
-
-.b-primary {
-  border-top: 1px solid #2962ff;
-}
-
 .p-45-t {
   padding-top: 45px;
 }
@@ -11101,36 +11073,56 @@ table.table.table-lg th {
   padding-top: 60px;
 }
 
-.l-h-0 {
-  line-height: 0px;
-}
-
 .p-07-top {
   padding-top: 7px;
-}
-
-.pointer {
-  cursor: pointer;
-}
-
-.b-primary-t {
-  border-top: 1px solid #2962ff;
 }
 
 .p-0-t {
   padding-top: 0px;
 }
 
-.m--2-t {
-  margin-top: -2px;
+.p-25-t {
+  padding-top: 25px;
 }
 
-.overflow-h {
-  overflow: hidden;
+.m-10-b {
+  margin-bottom: 10px;
+}
+
+.m-20-b {
+  margin-bottom: 20px;
 }
 
 .p-0 {
   padding: 0;
+}
+
+.m-20-top {
+  margin-top: 20px;
+}
+
+.m-40-top {
+  margin-top: 40px;
+}
+
+.t-d-n {
+  text-decoration: none;
+}
+
+.l-s-n {
+  list-style: none;
+}
+
+.plans {
+  box-shadow: 0 2px 4px 0 rgba(96, 97, 110, 0.43);
+}
+
+.rectangle-red-shadow {
+  box-shadow: 0 3px 5px 0 #a72d28;
+}
+
+.f-s-15 {
+  font-size: 15px;
 }
 
 .l-h-32 {
@@ -11143,6 +11135,62 @@ table.table.table-lg th {
 
 .l-h-28 {
   line-height: 28px;
+}
+
+.l-h-0 {
+  line-height: 0px;
+}
+
+.b-primary-t {
+  border-top: 1px solid #2962ff;
+}
+
+.b-primary {
+  border-top: 1px solid #2962ff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.overflow-h {
+  overflow: hidden;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-i {
+  display: inline;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.msg {
+  width: 90%;
+}
+
+.w-85 {
+  width: 85%;
 }
 
 .of-hidden {
@@ -11176,34 +11224,6 @@ table.table.table-lg th {
   width: 100%;
   left: 0;
   top: 0;
-}
-
-.m-20-top {
-  margin-top: 20px;
-}
-
-.m-40-top {
-  margin-top: 40px;
-}
-
-.f-right {
-  float: right;
-}
-
-.f-left {
-  float: left;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-70 {
-  width: 70%;
-}
-
-.w-85 {
-  width: 85%;
 }
 
 .scroll-y {
