@@ -412,6 +412,8 @@ body
     .show-md,
     .block-md
       display: block
+    .initial-md
+      position: initial
 
   @media screen and (min-width: $xs-device) and (max-width: $sm-device)
 
@@ -450,6 +452,8 @@ body
           margin-left: 0
           margin-right: 0
 
+      .initial-sm
+        position: initial    
 
     @for $i from 1 through 12
       .#{$class-order}-sm-#{$i}
@@ -579,4 +583,6 @@ body
     .show-xs,
     .block-xs
       display: block
+    .initial-xs
+      position: initial
 

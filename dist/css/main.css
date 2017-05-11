@@ -2503,6 +2503,9 @@ div {
   body .block-md {
     display: block;
   }
+  body .initial-md {
+    position: initial;
+  }
 }
 @media screen and (min-width: 460px) and (max-width: 700px) {
   body .gs-block_auto-sm {
@@ -2539,6 +2542,9 @@ div {
   body .gs-block-sm.sticky-sides > .layout {
     margin-left: 0;
     margin-right: 0;
+  }
+  body .gs-block-sm .initial-sm {
+    position: initial;
   }
   body .order-sm-1 {
     order: 1;
@@ -2757,6 +2763,9 @@ div {
   body .show-xs,
   body .block-xs {
     display: block;
+  }
+  body .initial-xs {
+    position: initial;
   }
 }
 
