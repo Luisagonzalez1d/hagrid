@@ -2504,7 +2504,7 @@ div {
     display: block;
   }
   body .initial-md {
-    position: initial;
+    position: initial !important;
   }
 }
 @media screen and (min-width: 460px) and (max-width: 700px) {
@@ -2544,7 +2544,7 @@ div {
     margin-right: 0;
   }
   body .gs-block-sm .initial-sm {
-    position: initial;
+    position: initial !important;
   }
   body .order-sm-1 {
     order: 1;
@@ -2765,7 +2765,7 @@ div {
     display: block;
   }
   body .initial-xs {
-    position: initial;
+    position: initial !important;
   }
 }
 
