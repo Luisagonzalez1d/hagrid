@@ -1,4 +1,4 @@
-# hagrid-framework
+# Hagrid.io
 
 ## Web framework
 
@@ -29,8 +29,6 @@ There is a summary of the main features that hagrid.io support:
 - Ability to be extended for the community
 - Future creation of marketplace for the community (free themes and extensions)
 
-### Examples
-
 
 ### Knowledge Guide / Documentation
 You can see all available documentation in [hagrid.io][1]
@@ -38,7 +36,7 @@ You can see all available documentation in [hagrid.io][1]
 ### Install
 
 ```
-$ bower install hagrid-io
+$ bower install hagrid.io
 ```
 
 ### Build
@@ -71,14 +69,16 @@ To run and execute this project you need execute compass on root project.
 $ compass watch -c config.rb
 ```
 
-## Create an custom theme
+## Create a custom theme
 
 You can create themes with the Hagrid, for now you need follow the next steps.
 
 1. Download this Repository.
 2. Check previous pre requirements of OS and libraries/tools.
-3. 
-
+3. Go to sass/hagrid-themes and duplicate the example folder
+4. Once inside the example folder, update the style properties for your theme on vars folder.
+5. Run/restart the command `compass watch`, please see above command.
+6. Copy the fonts folder from new genereted theme folder on dist folder.
 
 
 ## Examples
@@ -86,4 +86,4 @@ You can create themes with the Hagrid, for now you need follow the next steps.
 To see demos and examples please see demos folder on this repository or go to [hagrid.io][1]
 
 
-[1]:<http://hagrid.io/>{:target="_blank"}
+[1]:<http://hagrid.io/>
