@@ -2961,6 +2961,14 @@ a.default-link:hover {
   margin-bottom: 10px;
 }
 
+.p-25-x {
+  padding: 25px 0px 25px 0px;
+}
+
+.m-5n-b {
+  margin-bottom: -5px;
+}
+
 .m-20-b {
   margin-bottom: 20px;
 }
@@ -3027,6 +3035,10 @@ a.default-link:hover {
 
 .l-h-0 {
   line-height: 0px;
+}
+
+.l-h-17 {
+  line-height: 1.7rem;
 }
 
 .b-primary-t {
@@ -7745,10 +7757,11 @@ h6,
   background-color: rgba(0, 0, 0, 0.2);
 }
 .navbar .navbar-brand {
-  font-size: 1.4em;
-  line-height: 0;
-  padding: 1.1em;
-  height: 100%;
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 .navbar .navbar-brand small {
   font-size: 0.6em;
@@ -12731,6 +12744,14 @@ table.table.table-lg th {
   margin-bottom: 10px;
 }
 
+.p-25-x {
+  padding: 25px 0px 25px 0px;
+}
+
+.m-5n-b {
+  margin-bottom: -5px;
+}
+
 .m-20-b {
   margin-bottom: 20px;
 }
@@ -12797,6 +12818,10 @@ table.table.table-lg th {
 
 .l-h-0 {
   line-height: 0px;
+}
+
+.l-h-17 {
+  line-height: 1.7rem;
 }
 
 .b-primary-t {

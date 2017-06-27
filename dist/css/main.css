@@ -2833,6 +2833,10 @@ a.default-link:hover {
   margin-left: 0;
 }
 
+.p-20-top {
+  padding-top: 20px;
+}
+
 .p-reset {
   padding-top: 0;
   padding-right: 0;
@@ -2840,12 +2844,265 @@ a.default-link:hover {
   padding-left: 0;
 }
 
+.p-10-20 {
+  padding: 10px 20px;
+}
+
+.p-0-20 {
+  padding: 0px 20px;
+}
+
+.p-30-20 {
+  padding: 30px 20px;
+}
+
+.p-20-b {
+  padding-bottom: 20px;
+}
+
+.p-50 {
+  padding: 6px 50px;
+}
+
+.p-18 {
+  padding: 0px 18px;
+}
+
+.p-30-top {
+  padding-top: 30px;
+}
+
+.p-40-bottom {
+  padding-bottom: 40px;
+}
+
+.p-80-bottom {
+  padding-bottom: 80px;
+}
+
+.p-80-top {
+  padding-top: 80px;
+}
+
+.p-105-top {
+  padding-top: 105px;
+}
+
+.p-200-bottom {
+  padding-bottom: 200px;
+}
+
+.p-150-bottom {
+  padding-bottom: 150px;
+}
+
 .m-0 {
   margin: 0;
 }
 
+.plans-d {
+  padding-left: 10px;
+  border-bottom: 1px solid #b0b0b7;
+}
+
+.m-45-t {
+  margin-top: 45px;
+}
+
+.p-50-r {
+  padding-right: 50px;
+}
+
+.p-120-r {
+  padding-right: 120px;
+}
+
+.p-10-l {
+  padding-left: 10px;
+}
+
+.p-25-l {
+  padding-left: 25px;
+}
+
+.p-25-r {
+  padding-right: 25px;
+}
+
+.p-10-b {
+  padding-bottom: 10px;
+}
+
+.p-20-30 {
+  padding: 20px 30px;
+}
+
+.p-45-t {
+  padding-top: 45px;
+}
+
+.p-60-t {
+  padding-top: 60px;
+}
+
+.p-07-top {
+  padding-top: 7px;
+}
+
+.p-0-t {
+  padding-top: 0px;
+}
+
+.p-25-t {
+  padding-top: 25px;
+}
+
+.m-10-b {
+  margin-bottom: 10px;
+}
+
+.p-25-x {
+  padding: 25px 0px 25px 0px;
+}
+
+.m-5n-b {
+  margin-bottom: -5px;
+}
+
+.m-20-b {
+  margin-bottom: 20px;
+}
+
 .p-0 {
   padding: 0;
+}
+
+.m-20-top {
+  margin-top: 20px;
+}
+
+.m-40-top {
+  margin-top: 40px;
+}
+
+.m--20-l {
+  margin-left: -10px !important;
+}
+
+.m--1-t {
+  margin-top: -1px;
+}
+
+.t-d-n {
+  text-decoration: none;
+}
+
+.l-s-n {
+  list-style: none;
+}
+
+.plans {
+  box-shadow: 0 2px 4px 2px rgba(96, 97, 110, 0.43);
+}
+
+.rectangle-red-shadow {
+  box-shadow: 0px 4px 10px 0 #a72d28;
+}
+
+.f-s-15 {
+  font-size: 15px;
+}
+
+.f-s-11 {
+  font-size: 11px;
+}
+
+.f-s-12 {
+  font-size: 12px;
+}
+
+.l-h-32 {
+  line-height: 32px;
+}
+
+.l-h-24 {
+  line-height: 24px;
+}
+
+.l-h-28 {
+  line-height: 28px;
+}
+
+.l-h-0 {
+  line-height: 0px;
+}
+
+.l-h-17 {
+  line-height: 1.7rem;
+}
+
+.b-primary-t {
+  border-top: 1px solid #2962ff;
+}
+
+.b-primary {
+  border-top: 1px solid #2962ff;
+}
+
+.b-primary-b {
+  border-bottom: 1px solid #2962ff;
+}
+
+.b-l-grey-color {
+  border-left: solid 0.5px rgba(214, 214, 214, 0.6);
+}
+
+.grey-bgc-o {
+  background-color: rgba(214, 214, 214, 0.2);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.overflow-h {
+  overflow: hidden;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-i {
+  display: inline;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.msg {
+  width: 90%;
+}
+
+.w-85 {
+  width: 85%;
 }
 
 .of-hidden {
@@ -7500,10 +7757,11 @@ h6,
   background-color: rgba(0, 0, 0, 0.2);
 }
 .navbar .navbar-brand {
-  font-size: 1.4em;
-  line-height: 0;
-  padding: 1.1em;
-  height: 100%;
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 .navbar .navbar-brand small {
   font-size: 0.6em;
@@ -11283,13 +11541,8 @@ table.table.table-lg th {
   border: 1px solid;
   border-color: #ECECEC;
   border-radius: 100px;
-<<<<<<< HEAD
   margin-right: 0.5em;
-  color: #f8f8f8;
-=======
-  margin-right: .5em;
   color: #ECECEC;
->>>>>>> 4ecdded8c7570dc3eb12412b823f6731d68dc39d
 }
 .pagination.pagination-outline.pagination-default > *:not(.not):hover:not(.ellipsis):not(.disable), .pagination.pagination-outline.pagination-default > *:not(.not).current {
   background: white;
@@ -12336,6 +12589,10 @@ table.table.table-lg th {
   display: flex;
 }
 
+.block-children > * {
+  display: block;
+}
+
 .align-left {
   text-align: left;
 }
@@ -12487,6 +12744,14 @@ table.table.table-lg th {
   margin-bottom: 10px;
 }
 
+.p-25-x {
+  padding: 25px 0px 25px 0px;
+}
+
+.m-5n-b {
+  margin-bottom: -5px;
+}
+
 .m-20-b {
   margin-bottom: 20px;
 }
@@ -12553,6 +12818,10 @@ table.table.table-lg th {
 
 .l-h-0 {
   line-height: 0px;
+}
+
+.l-h-17 {
+  line-height: 1.7rem;
 }
 
 .b-primary-t {
